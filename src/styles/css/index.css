@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#header-t {
+  width: 1200px;
+  height: 60px;
+  background: skyblue;
+  margin: 0 auto;
+}
