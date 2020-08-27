@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+///////////////头部上
 #header-t{
     width:100%;
     height: 60px;
@@ -23,6 +24,13 @@
             list-style:none;
             float:left;
             height:100%;
+            position:relative;
+            img{
+                position:absolute;
+                top:39px;
+                left:300px;
+                display: none;
+            }
             li{
                 float:left;
                 padding-right:15px;
@@ -31,26 +39,157 @@
                 cursor:pointer;
                 &:last-child{
                     color:red;
+                   &:hover img{
+                       display:block;
+                   }
                 }
                 &:hover{
                     color:red;
                 }
             }
+            
         }
         .icon1{
             float:right;
             width: 20px;
-            height: 20px;
-            background:red;
+            height: 100%;
             margin:auto 0;
+            line-height:60px;
+            .icon-shouji{
+                font-size:20px;
+            }
         }
         .list-r{
             float:right;
             list-style:none;
             height:100%;
-            width: 60px;
-            background:orange;
-            margin-right:40px;
+            margin-right:30px;
+            li{
+                float:left;
+                height:100%;
+                line-height:60px;
+               a{
+                   text-decoration:none;
+                   padding:0 5px;
+               }
+               .zhuce{
+                   border-right:1px solid black;
+               }
+            }
+        }
+    }
+}
+//////////////头部下
+#header-b{
+    width:100%;
+    height: 80px;
+    background:#e0e0e0;
+    .header-b-c{
+        width: 1200px;
+        height: 100%;
+        margin:0 auto;
+        ul{
+            height:100%;
+            list-style:none;
+            float:left;
+            li{
+                float:left;
+                margin-right:25px;
+                line-height:80px;
+                a{
+                    text-decoration:none;
+                    font-size:16px;
+                    font-weight:bold;
+                    color:black;
+                    cursor:pointer;
+                }
+            }
+        }
+        .search{
+            float:right;
+            margin-top:20px;
+            position:relative;
+            form{
+                outline:none;
+            }
+            input{                
+            width: 250px;
+            height: 40px;
+            background:#eaeaea;
+            border:1px solid black;
+            border-radius:20px;
+            outline:none;
+            }
+            .icon-search{
+                font-size:25px;
+                position:absolute;
+                top:7px;
+                right:13px;;
+            }
+        }
+    }    
+}
+///////////////////导航轮播图
+.lunbotu{
+    width: 100%;
+    height: 580px;
+    background:url("../../images/无标题.png");
+    background-size:100%;
+    .daohang{
+        width: 1200px;
+        height:580px;
+        position:relative;
+        margin:0 auto;
+        overflow:hidden;
+        .nav{
+            width: 280px;
+            height: 500px;
+            list-style:none;
+            background:rgba(255,255,255,0.7);
+            margin-top:40px;
+            .nav-li{
+                position:relative;
+                border:1px solid #e6e6e6;
+                width:214px;
+                height: 69px;
+                padding:0 32px;
+                line-height:69px;
+                font-weight: bold;
+                color:#4b4b4b;
+                .icon-jiantou{
+                    float:right;
+                }
+                &:hover{
+                    color:red;
+                }
+                .nav-two{
+                    color:black;
+                    font-size:12px;
+                    position: absolute;
+                    width: 960px;
+                    height: 460px;
+                    background:white;
+                    left:279px;
+                    top:0;
+                    padding:20px;
+                    >ul{
+                        height:45px;
+                        width: 100%;
+                        list-style:none;
+                        line-height:45px;
+                        >li{
+                            float:left;
+                            padding:0 10px;
+                            .icon-jiantou{
+                                font-size:14px;
+                            }
+                            &:hover{
+                                color:red;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
