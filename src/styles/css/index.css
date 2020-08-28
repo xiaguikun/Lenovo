@@ -4,11 +4,11 @@
 }
 #header-t {
   width: 100%;
-  height: 60px;
+  height: 50px;
 }
 #header-t .logo {
   width: 120px;
-  height: 60px;
+  height: 50px;
   float: left;
 }
 #header-t .logo img {
@@ -36,7 +36,7 @@
   float: left;
   padding-right: 15px;
   color: #8d8d8d;
-  line-height: 60px;
+  line-height: 50px;
   cursor: pointer;
 }
 #header-t .header-t-c .list-l li:last-child {
@@ -53,7 +53,7 @@
   width: 20px;
   height: 100%;
   margin: auto 0;
-  line-height: 60px;
+  line-height: 50px;
 }
 #header-t .header-t-c .icon1 .icon-shouji {
   font-size: 20px;
@@ -67,7 +67,7 @@
 #header-t .header-t-c .list-r li {
   float: left;
   height: 100%;
-  line-height: 60px;
+  line-height: 50px;
 }
 #header-t .header-t-c .list-r li a {
   text-decoration: none;
@@ -78,7 +78,7 @@
 }
 #header-b {
   width: 100%;
-  height: 80px;
+  height: 70px;
   background: #e0e0e0;
 }
 #header-b .header-b-c {
@@ -94,7 +94,7 @@
 #header-b .header-b-c ul li {
   float: left;
   margin-right: 25px;
-  line-height: 80px;
+  line-height: 70px;
 }
 #header-b .header-b-c ul li a {
   text-decoration: none;
@@ -113,7 +113,7 @@
 }
 #header-b .header-b-c .search input {
   width: 250px;
-  height: 40px;
+  height: 30px;
   background: #eaeaea;
   border: 1px solid black;
   border-radius: 20px;
@@ -122,38 +122,38 @@
 #header-b .header-b-c .search .icon-search {
   font-size: 25px;
   position: absolute;
-  top: 7px;
-  right: 13px;
+  top: 4px;
+  right: 10px;
 }
 .lunbotu {
   width: 100%;
-  height: 580px;
+  height: 480px;
   background: url("../../images/无标题.png");
   background-size: 100%;
 }
 .lunbotu .daohang {
   width: 1200px;
-  height: 580px;
+  height: 480px;
   position: relative;
   margin: 0 auto;
   overflow: hidden;
 }
 .lunbotu .daohang .nav {
   width: 280px;
-  height: 500px;
+  height: 400px;
   list-style: none;
   background: rgba(255, 255, 255, 0.7);
   margin-top: 40px;
 }
 .lunbotu .daohang .nav .nav-li {
-  position: relative;
   border: 1px solid #e6e6e6;
   width: 214px;
-  height: 69px;
+  height: 55px;
   padding: 0 32px;
-  line-height: 69px;
+  line-height: 55px;
   font-weight: bold;
   color: #4b4b4b;
+  cursor: pointer;
 }
 .lunbotu .daohang .nav .nav-li .icon-jiantou {
   float: right;
@@ -161,30 +161,68 @@
 .lunbotu .daohang .nav .nav-li:hover {
   color: red;
 }
+.lunbotu .daohang .nav .nav-li:hover .nav-two {
+  display: block;
+}
 .lunbotu .daohang .nav .nav-li .nav-two {
   color: black;
   font-size: 12px;
   position: absolute;
   width: 960px;
-  height: 460px;
+  height: 370px;
   background: white;
   left: 279px;
-  top: 0;
-  padding: 20px;
+  top: 40px;
+  padding: 15px;
+  display: none;
 }
 .lunbotu .daohang .nav .nav-li .nav-two > ul {
-  height: 45px;
-  width: 100%;
+  height: 20px;
+  width: 600px;
   list-style: none;
-  line-height: 45px;
+  line-height: 20px;
+  margin: 20px 0;
 }
 .lunbotu .daohang .nav .nav-li .nav-two > ul > li {
   float: left;
   padding: 0 10px;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
 }
 .lunbotu .daohang .nav .nav-li .nav-two > ul > li .icon-jiantou {
   font-size: 14px;
 }
 .lunbotu .daohang .nav .nav-li .nav-two > ul > li:hover {
   color: red;
+}
+.lunbotu .daohang .nav .nav-li .nav-two > ul > li:last-of-type {
+  border-right: 0px;
+}
+.lunbotu .daohang .nav .nav-li .nav-two > div {
+  width: 240px;
+  height: 130px;
+}
+.lunbotu .daohang .nav .nav-li .nav-two > div img {
+  width: 100%;
+  height: 100%;
+}
+.lunbotu .daohang .nav .nav-li .nav-two .tu1 {
+  position: absolute;
+  top: 20px;
+  right: 86px;
+}
+.lunbotu .daohang .nav .nav-li .nav-two .tu2 {
+  position: absolute;
+  top: 160px;
+  right: 86px;
+}
+#vip {
+  width: 100%;
+  height: 95px;
+}
+#vip .vip-c {
+  width: 1200px;
+  height: 100%;
+  background: skyblue;
+  margin: 0 auto;
 }
