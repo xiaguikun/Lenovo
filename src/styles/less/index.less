@@ -12,7 +12,7 @@ html,body{
     width:100%;
     height: 50px;
     .logo{
-        width: 120px;
+        width: 60px;
         height: 50px;
         float:left;
         img{
@@ -92,6 +92,8 @@ html,body{
     width:100%;
     height: 70px;
     background:#e0e0e0;
+    // position:sticky;
+    // top:0;
     .header-b-c{
         width: 1200px;
         height: 100%;
@@ -278,8 +280,8 @@ html,body{
                 &:hover{
                     color:rgb(255, 60, 0);
                     transition:0.3s;
-                    transform:scale(1.1);
-                    box-shadow:0px 0px 5px 1px #ccc;
+                    // transform:scale(1.1);
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
                 }
             }
         }
@@ -289,10 +291,9 @@ html,body{
 #miaosha{
     width: 1200px;
     height: 360px;
-    background:skyblue;
     margin:0 auto;
     margin-top:20px;
-
+    background:white;
     .ms{
         width: 230px;
         height: 100%;
@@ -306,6 +307,8 @@ html,body{
         width: 896px;
         height: 66px;
         border-bottom:1px solid #ccc;
+        // background:skyblue;
+        float:left;
         >div{
             margin:20px;
             width: 164px;
@@ -325,6 +328,475 @@ html,body{
         float:left;
         width: 896px;
         height: 295px;
-        background:orange;
+        // background:orange;
+        >ul{
+            width: 100%;
+            height: 273px;
+            list-style:none;
+            >li{
+                float:left;
+                width: 195px;
+                margin-right:23px;
+                margin-top:17px;
+                border-right:1px solid #e8e8e8;
+                height: 100%;
+                >div{
+                    width: 160px;
+                    height: 160px;
+                    line-height:160px;
+                    text-align:center;
+                    margin:auto;
+                    >img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                >p{
+                    margin-top:9px;
+                    >span:first-child{
+                        color:red;
+                        font-weight:bold;
+                    }
+                    >span:last-child{
+                        color:#e8e8e8;
+                    }
+                }
+            }
+            >li:last-child{
+                border-right:none;
+            }
+            >li:first-child{
+                margin-left:20px;
+            }
+        }
+    }
+    .div-r{
+        height: 360px;
+        width: 64px;
+        float:right;
+        background:linear-gradient(to top,#ed1810,#fd7a01);
+        margin-top:-67px;
+        p{
+            text-align:center;
+            width: 16px;
+            margin:150px auto;
+        }
+    }
+}
+////////////////////////////////笔记本电脑
+#l-bijiben{
+    .biaoti{
+        width: 1200px;
+        height: 35px;
+        margin:0 auto;
+        margin-bottom:16px;
+        margin-top:20px;
+        // line-height:35px;
+        h2{
+            float:left;
+            cursor:pointer;
+        }
+        ul{
+            float:right;
+            list-style:none;
+            li{
+                float:left;
+                padding:15px;
+                cursor:pointer;
+                &:hover{
+                    color:#f2310d;
+                }
+            }
+        }
+    }
+    .product{
+        width: 1200px;
+        height: 542px;
+        margin:0 auto;
+        // background:skyblue;
+        .p-l{
+            width: 230px;
+            height: 540px;
+            float:left;
+        }
+        .p-c{
+            width: 956px;
+            height: 540px;
+            float:left;
+            // background:orange;
+            list-style:none;
+            margin-left:12px;
+            li{
+                float:left;
+                width: 230px;
+                height: 265px;
+                margin-right:12px;
+                margin-bottom:12px;
+                background:white;
+                text-align:center;
+                cursor:pointer;
+                img{
+                    width: 160px;
+                    height: 160px;
+                    margin-top:3px;
+                }
+                p{
+                    margin-top:5px;
+                }
+                P:nth-of-type(1){
+                    color: #242424;
+                    font-weight:600;
+                }
+                P:nth-of-type(2){
+                    font-size: 12px;
+                    color: #858585;
+                }
+                P:nth-of-type(3){
+                    font-size: 16px;
+                    color: #e2231a;
+                }
+            }
+            li:hover{
+                transition: box-shadow .3s linear;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+            li:nth-child(4n){
+                margin:0;
+            }
+        }
+    }
+}
+////////////////////////////////台式机
+#l-taishi{
+    .biaoti{
+        width: 1200px;
+        height: 35px;
+        margin:0 auto;
+        margin-bottom:16px;
+        margin-top:20px;
+        // line-height:35px;
+        h2{
+            float:left;
+            cursor:pointer;
+        }
+        ul{
+            float:right;
+            list-style:none;
+            li{
+                float:left;
+                padding:15px;
+                cursor:pointer;
+                &:hover{
+                    color:#f2310d;
+                }
+            }
+        }
+    }
+    .product{
+        width: 1200px;
+        height: 542px;
+        margin:0 auto;
+        // background:skyblue;
+        .p-l{
+            width: 230px;
+            height: 540px;
+            float:left;
+        }
+        .p-c{
+            width: 956px;
+            height: 540px;
+            float:left;
+            // background:orange;
+            list-style:none;
+            margin-left:12px;
+            li{
+                float:left;
+                width: 230px;
+                height: 265px;
+                margin-right:12px;
+                margin-bottom:12px;
+                background:white;
+                text-align:center;
+                cursor:pointer;
+                img{
+                    width: 160px;
+                    height: 160px;
+                    margin-top:3px;
+                }
+                p{
+                    margin-top:5px;
+                }
+                P:nth-of-type(1){
+                    color: #242424;
+                    font-weight:600;
+                }
+                P:nth-of-type(2){
+                    font-size: 12px;
+                    color: #858585;
+                }
+                P:nth-of-type(3){
+                    font-size: 16px;
+                    color: #e2231a;
+                }
+            }
+            li:hover{
+                transition: box-shadow .3s linear;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+            li:nth-child(4n){
+                margin:0;
+            }
+        }
+    }
+}
+////////////////////////////////ThinkPad电脑同用上面格式
+////////////////////////////////手机配件同用上面格式
+////////////////////////////////平板电脑同用上面格式
+
+
+////////////////////////////////选件
+#l-xuanjian{
+    .biaoti{
+        width: 1200px;
+        height: 35px;
+        margin:0 auto;
+        margin-bottom:16px;
+        margin-top:20px;
+        // line-height:35px;
+        h2{
+            float:left;
+            cursor:pointer;
+        }
+        ul{
+            float:right;
+            list-style:none;
+            li{
+                float:left;
+                padding:15px;
+                cursor:pointer;
+                &:hover{
+                    color:#f2310d;
+                }
+            }
+        }
+    }
+    .product{
+        width: 1200px;
+        height: 542px;
+        margin:0 auto;
+        // background:skyblue;
+        .p-l{
+            width: 230px;
+            height: 540px;
+            float:left;
+        }
+        .p-c{
+            width: 956px;
+            height: 540px;
+            float:left;
+            // background:orange;
+            list-style:none;
+            margin-left:12px;
+            >li{
+                float:left;
+                width: 230px;
+                height: 265px;
+                margin-right:12px;
+                margin-bottom:12px;
+                background:white;
+                text-align:center;
+                cursor:pointer;
+                >img{
+                    width: 160px;
+                    height: 160px;
+                    margin-top:3px;
+                }
+                >p{
+                    margin-top:5px;
+                }
+                >P:nth-of-type(1){
+                    color: #242424;
+                    font-weight:600;
+                }
+                >P:nth-of-type(2){
+                    font-size: 12px;
+                    color: #858585;
+                }
+                >P:nth-of-type(3){
+                    font-size: 16px;
+                    color: #e2231a;
+                }
+            }
+            li:hover{
+                transition: box-shadow .3s linear;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+            >li:nth-child(4n){
+                margin:0;
+            }
+            >li:last-of-type{
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    list-style:none;
+                    background:#F5F5F5;
+                    text-align:center;
+                    li{
+                        width: 230px;
+                        height: 128px;
+                        margin-bottom:9px;
+                        background:white;
+                        div{
+                            float:left;
+                            margin-left:12px;
+                            p{
+                                width: 95px;
+                                height: 45px;
+                                font-size:12px;
+                                font-weight:600;
+                                margin-top:16px;
+                            }
+                            p:last-child{
+                                color:red;
+                                font-size:16px;
+                                font-weight:normal;
+                            }
+                        }
+                        img{
+                            margin-top:16px;
+                            width: 95px;
+                            height: 95px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+///////////////////////////////////服务/配件样式同上
+///////////////////////////////////智能样式同上
+
+///////////////////////////////////显示器同上上
+///////////////////////////////////IP周边同上
+#footer1{
+    width: 100%;
+    height: 209px;
+    margin-top:20px;
+    background:white;
+    .footer1-c{
+        width: 1200px;
+        height: 100%;
+        margin:0 auto;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+#footer2{
+    width: 100%;
+    height: 300px;
+    background:white;
+    .footer2-c{
+        width: 1200px;
+        height: 100%;
+        // background:skyblue;
+        margin:0 auto;
+        ul{
+            width: 1124px;
+            height: 160px;
+            padding:70px 0 70px 76px;
+            list-style:none;
+            li{
+                width: 152px;
+                float:left;
+                p{
+                    cursor:pointer;
+                }
+                >p{
+                    margin-bottom:12px;
+                    font-size:13px;
+                    color: #757575;
+                }
+                >P:first-child{
+                    color: #424242;
+                    font-size:16px;
+                    font-weight:600;
+                    margin-bottom:18px;
+                }
+                div{
+                    p:first-child{
+                        color:red;
+                        font-size:18px;
+                        font-weight:500;
+                        margin-bottom:10px;
+                    }
+                    P:nth-child(2){
+                        font-size:13px;
+                        color: #757575;
+                        margin-bottom:6px;
+                    }
+                    p:last-child{
+                        text-align:center;
+                        padding:5px;
+                        border:1px solid #ccc;
+                        color:#aaa;
+                        .icon-huiyuan4{
+                            font-size:20px;
+                        }
+                        &:hover{
+                            color:black;
+                        }
+                    }
+                }
+            }
+            li:last-child{
+                padding-left:40px;
+                border-left:1px solid #ccc;
+            }
+        }
+    }
+}
+#footer3{
+    width: 100%;
+    height: 46px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+//////////////////////////////////////边盒子固定定位
+#fixedbox{
+    width: 50px;
+    height: 46  0px;
+    position: fixed;
+    background:white;
+    right:16px;
+    top:150px;
+    ul{
+        width: 100%;
+        height: 100%;
+        list-style:none;
+        text-align:center;
+        padding-right:5px;
+        li{
+            cursor:pointer;
+            border-bottom:1px solid #efe;
+            .iconfont{
+                margin-top:15px;
+                font-size:24px;
+                color:#bbb;
+            }
+            p{
+                margin:8px 0;
+            }
+        }
+        li:hover{
+            color:#e2231a;
+        }
+        li:hover .iconfont{
+            color:#e2231a;
+        }
     }
 }
