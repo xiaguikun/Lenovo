@@ -1,0 +1,338 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    background:#F5F5F5;
+}
+///////////////头部上
+#header-t{
+    width:100%;
+    height: 50px;
+    .logo{
+        width: 60px;
+        height: 50px;
+        float:left;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .header-t-c{
+        width: 1200px;
+        height: 100%;
+        margin:0 auto;
+        // background:skyblue;
+        .list-l{
+            list-style:none;
+            float:left;
+            height:100%;
+            position:relative;
+            img{
+                width: 233px;
+                height: 124px;
+                position:absolute;
+                top:39px;
+                left:300px;
+                display: none;
+                z-index: 2;
+            }
+            li{
+                float:left;
+                padding-right:15px;
+                color:#8d8d8d;
+                line-height:50px;
+                cursor:pointer;
+                &:last-child{
+                    color:red;
+                   &:hover img{
+                       display:block;
+                   }
+                }
+                &:hover{
+                    color:red;
+                }
+            }
+            
+        }
+        .icon1{
+            float:right;
+            width: 20px;
+            height: 100%;
+            margin:auto 0;
+            line-height:50px;
+            .icon-shouji{
+                font-size:20px;
+            }
+        }
+        .list-r{
+            float:right;
+            list-style:none;
+            height:100%;
+            margin-right:30px;
+            li{
+                float:left;
+                height:100%;
+                line-height:50px;
+               a{
+                   text-decoration:none;
+                   padding:0 5px;
+               }
+               .zhuce{
+                   border-right:1px solid black;
+               }
+            }
+        }
+    }
+}
+//////////////头部下
+#header-b{
+    width:100%;
+    height: 70px;
+    background:#e0e0e0;
+    position:sticky !important;
+    top:-1px !important;
+    z-index:3;
+    .header-b-c{
+        width: 1200px;
+        height: 100%;
+        margin:0 auto;
+        ul{
+            height:100%;
+            list-style:none;
+            float:left;
+            li{
+                float:left;
+                margin-right:25px;
+                line-height:70px;
+                a{
+                    text-decoration:none;
+                    font-size:16px;
+                    font-weight:bold;
+                    color:black;
+                    cursor:pointer;
+                }
+            }
+        }
+        .search{
+            float:right;
+            margin-top:20px;
+            position:relative;
+            form{
+                outline:none;
+            }
+            input{                
+            width: 250px;
+            height: 30px;
+            background:#eaeaea;
+            border:1px solid black;
+            border-radius:20px;
+            outline:none;
+            }
+            .icon-search{
+                font-size:25px;
+                position:absolute;
+                top:2px;
+                right:10px;
+            }
+        }
+    }    
+}
+////////////////////////nav
+#nav{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #DADADA;
+    .nav-c{
+        width: 1200px;
+        height: 35px;
+        margin:0 auto;
+        p{
+            line-height:35px;
+            font-size:12px;
+            float:left;
+            color:#535353;
+            a:hover{
+                color:red;
+            }
+            a{
+                cursor:pointer;
+                text-decoration:none;
+            }
+        }
+        div{
+            float:right;
+            img{
+                width: 99px;
+                height: 24px;
+                margin-top:5px;
+            }
+        }
+    }
+    
+}
+.text{
+    width: 80px;
+    height: 80px;
+    overflow: auto;
+}
+//////////////////////////////////// 大图小图添加购物车
+#main{
+    width: 100%;
+    background:white;
+    #mainn{
+        width: 1200px;
+        height: 665px;
+        margin:0 auto;
+        // background:skyblue;
+        // ///////////////////////////////////////大图小图
+        .main-l{
+            width: 520px;
+            height: 665px;
+            float:left;
+            // background:orange;
+            .bigtu{
+                width: 520px;
+                height: 520px;
+                background:url(../../images/xiangqing/xq-b1.jpg);
+            }
+            .small{
+                width:(84+5)*5+80px;
+                height: 84px;
+                position:relative;
+                margin-top:20px;
+                .smalltu{
+                    width:(84+5)*5+20px;
+                    height: 100%;
+                    overflow: hidden;
+                    float:left;
+                    margin-left:30px;
+                    img{
+                        margin-right:3px;
+                        border:1px solid #ccc;
+                    }
+                }
+                span{
+                    line-height:84px;
+                    color:#A5A5A5;
+                    position:absolute;
+                    font-size:22px;
+                }
+                span:first-of-type{
+                    left:0;
+                }
+                span:last-of-type{
+                    right:0;
+                }
+            }
+            article{
+                width: 520px;
+                height: 30px;
+                margin-top:5px;
+                p{
+                    font-size:13px;
+                    line-height:30px;
+                }
+                p:first-child{
+                    float:left;
+                    color:#B9A5A5;
+                }
+                p:nth-child(2){
+                    float:right;
+                    cursor:pointer;
+                    &:hover{
+                        color:red;
+                    }
+                    span{
+                        font-size:12px;
+                        color:red;
+                        margin-left:3px;
+                    }
+    
+                }
+                p:last-child{
+                    float:right;
+                    width: 70px;
+                    height: 30px;
+                    cursor:pointer;
+                    padding-left:8px;
+                    &:hover{
+                        color:red;
+                    }
+                    span{
+                        font-size:12px;
+                        color:red;
+                        margin-left:3px;
+                    }
+                }
+            }
+        }
+        .main-r{
+            width: 650px;
+            height: 665px;
+            background:orange;
+            float:right;
+            overflow:auto;
+            h1{
+                margin-top:34px;
+                font-size:22px;
+                font-weight:normal;
+            }
+            .p1{
+                font-size:14px;
+                color: #A2A2A2;
+                margin-top:8px;
+                margin-bottom:20px;
+                line-height:22px;
+            }
+            .div1{
+                width: 650px;
+                height: 153px;
+                background:#F9F9F9;
+                .jiage{
+                    width: 100%;
+                    height: 38px;
+                    margin:9px 0;
+                    >p:first-child{
+                        font-size:12px;
+                        color:#434242;
+                        line-height:38px;
+                        float:left;
+                        margin-left:10px;
+                    }
+                    >p:nth-child(2){
+                        font-size:20px;
+                        color:red;
+                        float:left;
+                        line-height:38px;
+                        font-weight:600;
+                        margin-left:30px;
+                        span{
+                            font-size:12px;
+                        }
+                    }
+                    >p:last-child{
+                        float:right;
+                        border-right:1px solid #E0E0E0;
+                        span{
+                            font-size:12px;
+                            padding:0 10px;
+                        }
+                        span:first-child{
+                           color:#A5A5A5; 
+                        }
+                        span:last-child{
+                            color:#4A4A4A;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .main-r::-webkit-scrollbar {display:none}
+    }
+}
+.sss{
+    width: 1200px;
+    height: 500px;
+}

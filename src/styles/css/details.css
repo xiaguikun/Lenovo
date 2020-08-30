@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  background: #F5F5F5;
+}
+#header-t {
+  width: 100%;
+  height: 50px;
+}
+#header-t .logo {
+  width: 60px;
+  height: 50px;
+  float: left;
+}
+#header-t .logo img {
+  width: 100%;
+  height: 100%;
+}
+#header-t .header-t-c {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header-t .header-t-c .list-l {
+  list-style: none;
+  float: left;
+  height: 100%;
+  position: relative;
+}
+#header-t .header-t-c .list-l img {
+  width: 233px;
+  height: 124px;
+  position: absolute;
+  top: 39px;
+  left: 300px;
+  display: none;
+  z-index: 2;
+}
+#header-t .header-t-c .list-l li {
+  float: left;
+  padding-right: 15px;
+  color: #8d8d8d;
+  line-height: 50px;
+  cursor: pointer;
+}
+#header-t .header-t-c .list-l li:last-child {
+  color: red;
+}
+#header-t .header-t-c .list-l li:last-child:hover img {
+  display: block;
+}
+#header-t .header-t-c .list-l li:hover {
+  color: red;
+}
+#header-t .header-t-c .icon1 {
+  float: right;
+  width: 20px;
+  height: 100%;
+  margin: auto 0;
+  line-height: 50px;
+}
+#header-t .header-t-c .icon1 .icon-shouji {
+  font-size: 20px;
+}
+#header-t .header-t-c .list-r {
+  float: right;
+  list-style: none;
+  height: 100%;
+  margin-right: 30px;
+}
+#header-t .header-t-c .list-r li {
+  float: left;
+  height: 100%;
+  line-height: 50px;
+}
+#header-t .header-t-c .list-r li a {
+  text-decoration: none;
+  padding: 0 5px;
+}
+#header-t .header-t-c .list-r li .zhuce {
+  border-right: 1px solid black;
+}
+#header-b {
+  width: 100%;
+  height: 70px;
+  background: #e0e0e0;
+  position: sticky !important;
+  top: -1px !important;
+  z-index: 3;
+}
+#header-b .header-b-c {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header-b .header-b-c ul {
+  height: 100%;
+  list-style: none;
+  float: left;
+}
+#header-b .header-b-c ul li {
+  float: left;
+  margin-right: 25px;
+  line-height: 70px;
+}
+#header-b .header-b-c ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+#header-b .header-b-c .search {
+  float: right;
+  margin-top: 20px;
+  position: relative;
+}
+#header-b .header-b-c .search form {
+  outline: none;
+}
+#header-b .header-b-c .search input {
+  width: 250px;
+  height: 30px;
+  background: #eaeaea;
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: none;
+}
+#header-b .header-b-c .search .icon-search {
+  font-size: 25px;
+  position: absolute;
+  top: 2px;
+  right: 10px;
+}
+#nav {
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #DADADA;
+}
+#nav .nav-c {
+  width: 1200px;
+  height: 35px;
+  margin: 0 auto;
+}
+#nav .nav-c p {
+  line-height: 35px;
+  font-size: 12px;
+  float: left;
+  color: #535353;
+}
+#nav .nav-c p a:hover {
+  color: red;
+}
+#nav .nav-c p a {
+  cursor: pointer;
+  text-decoration: none;
+}
+#nav .nav-c div {
+  float: right;
+}
+#nav .nav-c div img {
+  width: 99px;
+  height: 24px;
+  margin-top: 5px;
+}
+.text {
+  width: 80px;
+  height: 80px;
+  overflow: auto;
+}
+#main {
+  width: 100%;
+  background: white;
+}
+#main #mainn {
+  width: 1200px;
+  height: 665px;
+  margin: 0 auto;
+}
+#main #mainn .main-l {
+  width: 520px;
+  height: 665px;
+  float: left;
+}
+#main #mainn .main-l .bigtu {
+  width: 520px;
+  height: 520px;
+  background: url(../../images/xiangqing/xq-b1.jpg);
+}
+#main #mainn .main-l .small {
+  width: 525px;
+  height: 84px;
+  position: relative;
+  margin-top: 20px;
+}
+#main #mainn .main-l .small .smalltu {
+  width: 465px;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+#main #mainn .main-l .small .smalltu img {
+  margin-right: 3px;
+  border: 1px solid #ccc;
+}
+#main #mainn .main-l .small span {
+  line-height: 84px;
+  color: #A5A5A5;
+  position: absolute;
+  font-size: 22px;
+}
+#main #mainn .main-l .small span:first-of-type {
+  left: 0;
+}
+#main #mainn .main-l .small span:last-of-type {
+  right: 0;
+}
+#main #mainn .main-l article {
+  width: 520px;
+  height: 30px;
+  margin-top: 5px;
+}
+#main #mainn .main-l article p {
+  font-size: 13px;
+  line-height: 30px;
+}
+#main #mainn .main-l article p:first-child {
+  float: left;
+  color: #B9A5A5;
+}
+#main #mainn .main-l article p:nth-child(2) {
+  float: right;
+  cursor: pointer;
+}
+#main #mainn .main-l article p:nth-child(2):hover {
+  color: red;
+}
+#main #mainn .main-l article p:nth-child(2) span {
+  font-size: 12px;
+  color: red;
+  margin-left: 3px;
+}
+#main #mainn .main-l article p:last-child {
+  float: right;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  padding-left: 8px;
+}
+#main #mainn .main-l article p:last-child:hover {
+  color: red;
+}
+#main #mainn .main-l article p:last-child span {
+  font-size: 12px;
+  color: red;
+  margin-left: 3px;
+}
+#main #mainn .main-r {
+  width: 650px;
+  height: 665px;
+  background: orange;
+  float: right;
+  overflow: auto;
+}
+#main #mainn .main-r h1 {
+  margin-top: 34px;
+  font-size: 22px;
+  font-weight: normal;
+}
+#main #mainn .main-r .p1 {
+  font-size: 14px;
+  color: #A2A2A2;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+#main #mainn .main-r .div1 {
+  width: 650px;
+  height: 153px;
+  background: #F9F9F9;
+}
+#main #mainn .main-r .div1 .jiage {
+  width: 100%;
+  height: 38px;
+  margin: 9px 0;
+}
+#main #mainn .main-r .div1 .jiage > p:first-child {
+  font-size: 12px;
+  color: #434242;
+  line-height: 38px;
+  float: left;
+  margin-left: 10px;
+}
+#main #mainn .main-r .div1 .jiage > p:nth-child(2) {
+  font-size: 20px;
+  color: red;
+  float: left;
+  line-height: 38px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+#main #mainn .main-r .div1 .jiage > p:nth-child(2) span {
+  font-size: 12px;
+}
+#main #mainn .main-r .div1 .jiage > p:last-child {
+  float: right;
+  border-right: 1px solid #E0E0E0;
+}
+#main #mainn .main-r .div1 .jiage > p:last-child span {
+  font-size: 12px;
+  padding: 0 10px;
+}
+#main #mainn .main-r .div1 .jiage > p:last-child span:first-child {
+  color: #A5A5A5;
+}
+#main #mainn .main-r .div1 .jiage > p:last-child span:last-child {
+  color: #4A4A4A;
+}
+#main #mainn .main-r::-webkit-scrollbar {
+  display: none;
+}
+.sss {
+  width: 1200px;
+  height: 500px;
+}

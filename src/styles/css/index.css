@@ -4,8 +4,6 @@
 }
 html,
 body {
-  width: 100%;
-  height: 100%;
   background: #F5F5F5;
 }
 #header-t {
@@ -39,7 +37,7 @@ body {
   top: 39px;
   left: 300px;
   display: none;
-  z-index: 2;
+  z-index: 3;
 }
 #header-t .header-t-c .list-l li {
   float: left;
@@ -89,6 +87,9 @@ body {
   width: 100%;
   height: 70px;
   background: #e0e0e0;
+  position: sticky;
+  top: -1px;
+  z-index: 2;
 }
 #header-b .header-b-c {
   width: 1200px;
