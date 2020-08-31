@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
     "swiper": "^6.1.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiaguikun/Lenovo.git"
