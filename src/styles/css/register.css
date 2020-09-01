@@ -59,6 +59,8 @@ body {
   margin-top: 60px;
   overflow: hidden;
   background: white;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
 }
 #register .register-c {
   width: 358px;
@@ -71,6 +73,9 @@ body {
   font-size: 30px;
   margin-bottom: 40px;
 }
+#register .register-c form {
+  width: 428px;
+}
 #register .register-c form input {
   width: 328px;
   height: 50px;
@@ -79,12 +84,20 @@ body {
   line-height: 50px;
   border: 1px solid #ccc;
 }
-#register .register-c form input:nth-child(2) {
+#register .register-c form input:nth-of-type(2) {
   height: 50px;
   width: 213px;
   float: left;
 }
 #register .register-c form > span {
+  font-size: 12px;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}
+#register .register-c form .yanzhengma {
+  font-size: 16px;
   display: inline-block;
   width: 112px;
   height: 50px;
@@ -94,6 +107,7 @@ body {
   line-height: 55px;
   background: #F7F7F7;
   border-left: none;
+  cursor: pointer;
 }
 #register .register-c form .tishi {
   width: 358px;
@@ -105,6 +119,9 @@ body {
   width: 358px;
   color: white;
   background: red;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 #register .register-c form .tiaokuan {
   width: 358px;
@@ -137,4 +154,5 @@ body {
 }
 #register .register-c form .footer p:last-child {
   float: right;
+  margin-right: 75px;
 }

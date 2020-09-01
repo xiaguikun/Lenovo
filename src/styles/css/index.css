@@ -413,11 +413,15 @@ body {
   float: left;
   width: 230px;
   height: 265px;
-  margin-right: 12px;
   margin-bottom: 12px;
+  margin-right: 12px;
   background: white;
   text-align: center;
   cursor: pointer;
+}
+#l-bijiben .product .p-c li a {
+  display: block;
+  text-decoration: none;
 }
 #l-bijiben .product .p-c li img {
   width: 160px;
