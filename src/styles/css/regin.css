@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  background: #eee;
+}
+#regin {
+  width: 342px;
+  height: 490px;
+  margin: 100px auto;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 0 120px;
+}
+#regin h1 {
+  margin-top: 30px;
+  font-weight: normal;
+}
+#regin form .user {
+  width: 278px;
+  height: 45px;
+  color: #8c8c8c;
+  padding: 0 40px 0 20px;
+  margin-top: 20px;
+}
+#regin form .password {
+  width: 278px;
+  height: 45px;
+  color: #8c8c8c;
+  padding: 0 40px 0 20px;
+  margin-top: 15px;
+}
+#regin form .remember {
+  width: 12px;
+  height: 12px;
+  margin-top: 10px;
+  float: left;
+}
+#regin form .s-rem {
+  display: block;
+  width: 50px;
+  height: 12px;
+  font-size: 12px;
+  margin-top: 8px;
+  float: left;
+}
+#regin form .sub {
+  width: 330px;
+  height: 50px;
+  background: red;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  margin-left: -10px;
+}
+#regin .tishi {
+  margin-top: 20px;
+  font-size: 14px;
+  height: 30px;
+}
+#regin .tishi p {
+  color: red;
+  float: left;
+  cursor: pointer;
+}
+#regin .tishi ul {
+  float: right;
+  list-style: none;
+}
+#regin .tishi ul li {
+  float: left;
+  cursor: pointer;
+  padding: 0 5px;
+}
+#regin .tishi ul li a {
+  text-decoration: none;
+}
+#regin .tishi ul li:first-child {
+  border-right: 1px solid #ccc;
+}
+#regin .tishi ul li:hover {
+  color: red;
+}
+#regin .other {
+  width: 310px;
+  height: 20px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 15px;
+}
+#regin .other span {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#regin .other span:first-child {
+  width: 90px;
+  height: 1px;
+  background: black;
+}
+#regin .other span:last-child {
+  width: 90px;
+  height: 1px;
+  background: black;
+}
+#regin .reg-other {
+  width: 278px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#regin .reg-other p {
+  width: 40px;
+  height: 40px;
+  float: left;
+  line-height: 40px;
+  margin: 0 12px;
+  background: #8C8C8C;
+  border-radius: 50%;
+}
+#regin .reg-other p .iconfont {
+  font-size: 26px;
+  color: #FFFFFF;
+}
+#regin .reg-other .qq:hover {
+  background: skyblue;
+}
+#regin .reg-other .weibo:hover {
+  background: red;
+}
+#regin .reg-other .weixin:hover {
+  background: greenyellow;
+}
+#regin .reg-other .zhifubao:hover {
+  background: rgba(52, 52, 231, 0.952);
+}

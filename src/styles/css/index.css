@@ -6,6 +6,14 @@ html,
 body {
   background: #F5F5F5;
 }
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  margin-bottom: -15px;
+}
 #header-t {
   width: 100%;
   height: 50px;

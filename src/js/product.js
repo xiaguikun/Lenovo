@@ -140,7 +140,7 @@ $(function() {
                     </div>
                 </div>
                 <div class="gouwuche">
-                    <div class="liji">立即购买</div>
+                    <div class="liji"><a href="./register.html" style="text-decoration:none;color:white;">立即购买</a></div>
                     <div class="jiaru"><a href="./shopcar.html">加入购物车</a></div>
                 </div>
                 <div class="p">
