@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#top-box {
+  width: 100%;
+  height: 38px;
+  background: black;
+}
+#top-box .top-c {
+  width: 1200px;
+  height: 38px;
+  margin: 0 auto;
+}
+#top-box .top-c ul {
+  list-style: none;
+  float: right;
+}
+#top-box .top-c ul li {
+  margin-top: 10px;
+  padding: 0 8px;
+  border-right: 1px solid white;
+  color: white;
+  float: left;
+  font-size: 13px;
+  cursor: pointer;
+}
+#top-box .top-c ul li:hover {
+  color: red;
+}
+#carlogo {
+  width: 100%;
+  height: 60px;
+}
+#carlogo .carlogo-c {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#carlogo .carlogo-c img:first-child {
+  float: left;
+  margin-top: 10px;
+}
+#carlogo .carlogo-c img:last-child {
+  float: right;
+}
+#carmain {
+  width: 1200px;
+  min-height: 77px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#carmain .mulu {
+  width: 1198px;
+  height: 37px;
+  background: #F8F8F8;
+  border: 1px solid #D9D8D6;
+  margin-bottom: 10px;
+}
+#carmain .mulu p {
+  float: left;
+  line-height: 37px;
+}
+#carmain .mulu .shangpin {
+  width: 463px;
+  height: 37px;
+  text-align: center;
+}
+#carmain .mulu .shangpin input {
+  float: left;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+#carmain .mulu .guige {
+  width: 162px;
+  height: 37px;
+  text-align: center;
+}
+#carmain .mulu .danjia {
+  width: 152px;
+  height: 37px;
+  text-align: center;
+}
+#carmain .mulu .shuliang {
+  width: 152px;
+  height: 37px;
+  text-align: center;
+}
+#carmain .mulu .jine {
+  width: 152px;
+  height: 37px;
+  text-align: center;
+}
+#carmain .mulu .caozuo {
+  width: 116px;
+  height: 37px;
+  text-align: center;
+}
+#carmain .xuanran {
+  width: 1200px;
+}
+#carmain .xuanran .xr-product {
+  width: 1198px;
+  height: 116px;
+  border: 1px solid #D9D8D6;
+}
+#carmain .xuanran .xr-product > div {
+  float: left;
+}
+#carmain .xuanran .xr-product .product {
+  width: 463px;
+  height: 116px;
+}
+#carmain .xuanran .xr-product .product > input {
+  margin-left: 15px;
+  vertical-align: middle;
+}
+#carmain .xuanran .xr-product .product > img {
+  padding: 20px;
+  vertical-align: middle;
+}
+#carmain .xuanran .xr-product .product .pro-text {
+  width: 249px;
+  height: 100%;
+  float: right;
+}
+#carmain .xuanran .xr-product .product .pro-text P {
+  font-size: 14px;
+  cursor: pointer;
+}
+#carmain .xuanran .xr-product .product .pro-text P:first-child {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+#carmain .xuanran .xr-product .product .pro-text P:first-child:hover {
+  color: red;
+}
+#carmain .xuanran .xr-product .product .pro-text P:last-child {
+  color: red;
+}
+#carmain .xuanran .xr-product .product .pro-text P:last-child:hover {
+  color: black;
+}
+#carmain .xuanran .xr-product .product .pro-text P:last-child img {
+  vertical-align: middle;
+}
+#carmain .xuanran .xr-product .config {
+  width: 162px;
+  height: 116px;
+}
+#carmain .xuanran .xr-product .price {
+  width: 152px;
+  height: 116px;
+}
+#carmain .xuanran .xr-product .price input {
+  line-height: 116px;
+  text-align: center;
+}
+#carmain .xuanran .xr-product .num {
+  width: 152px;
+  height: 116px;
+}
+#carmain .xuanran .xr-product .num > div {
+  width: 105px;
+  height: 22px;
+  margin: auto;
+  margin-top: 48px;
+}
+#carmain .xuanran .xr-product .num > div input {
+  user-select: none;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  margin: 0 -5px;
+  vertical-align: middle;
+}
+#carmain .xuanran .xr-product .num > div .iconfont {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 24px;
+  background: #eee;
+  text-align: center;
+  line-height: 24px;
+  user-select: none;
+}
+#carmain .xuanran .xr-product .yuan {
+  width: 152px;
+  height: 116px;
+  text-align: center;
+  line-height: 116px;
+}
+#carmain .xuanran .xr-product .yuan input {
+  color: red;
+  text-align: center;
+}
+#carmain .xuanran .xr-product .active {
+  width: 116px;
+  height: 116px;
+}
+#carmain .xuanran .xr-product .active p {
+  cursor: pointer;
+}
+#carmain .xuanran .xr-product .active p:first-child {
+  margin-top: 40px;
+}
+#carmain .xuanran .carfooter {
+  width: 1168px;
+  height: 30px;
+  background: #F8F8F8;
+  padding: 15px;
+  margin-top: 8px;
+}
+#carmain .xuanran .carfooter .quanxuan {
+  float: left;
+}
+#carmain .xuanran .carfooter .zongjia {
+  float: right;
+}
+#carmain .xuanran .carfooter .zongjia span {
+  color: red;
+}
+#carmain .end {
+  width: 162px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 8px;
+  background: red;
+  text-align: center;
+  line-height: 40px;
+  float: right;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

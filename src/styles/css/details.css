@@ -192,7 +192,7 @@ body {
 }
 #main #mainn .main-l .small {
   width: 525px;
-  height: 84px;
+  height: 90px;
   position: relative;
   margin-top: 20px;
 }
@@ -532,10 +532,12 @@ body {
 #main #mainn .main-r .goumai > div input {
   width: 50px;
   text-align: center;
+  user-select: none;
 }
 #main #mainn .main-r .goumai > div span {
   line-height: 26px;
   color: black;
+  user-select: none;
 }
 #main #mainn .main-r .gouwuche {
   width: 622px;
@@ -565,6 +567,10 @@ body {
   height: 38px;
   text-align: center;
   line-height: 38px;
+}
+#main #mainn .main-r .gouwuche .jiaru a {
+  color: red;
+  text-decoration: none;
 }
 #main #mainn .main-r .p {
   width: 622px;
